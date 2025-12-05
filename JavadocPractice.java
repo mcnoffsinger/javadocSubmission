@@ -1,21 +1,18 @@
+/**
+ * Maxwell Noffsinger
+ * Course: Java I
+ * Date: 12/5/25
+ * Prints a welcome message to the screen, then solves some simple math questions. Utilizes four submethods.
+ */
 public class JavadocPractice {
 
-    // ------------------------------------------------------------
-    // TODO: Write a class-level Javadoc comment here.
-    // Describe the purpose of this class in 1–2 sentences.
-    /*
-     * This is a 
-     * 
-     * 
-     * 
-     * 
-     */
-    // ------------------------------------------------------------
+ 
+   
+
 
 
     /**
-     * Prints a welcome message to the terminal. 
-     * Prints the answer to some simple math questions using three methods.
+     * Entrance to the program. 
      * @param args command line arguments passed to the program are unused
      */
     public static void main(String[] args) {
@@ -54,7 +51,6 @@ public class JavadocPractice {
 
     /**
      * Prints a welocme message to the terminal. no input or output.
-     * 
      */
     public static void printWelcome() {
         System.out.println("Welcome to the Javadoc practice file.");
@@ -62,7 +58,7 @@ public class JavadocPractice {
 
 
     /**
-     * returns the larger of two integers. Essentially finidng the max of an array of two integers.
+     * returns the larger of two integers. Essentially finding the max of an array of two integers.
      * @param x the first integer
      * @param y the second integer
      * @return x if x is the largest, y if y is the largest.
